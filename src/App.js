@@ -111,7 +111,7 @@ export default function App() {
         }}>
           <span style={{ fontSize: 13, opacity: 0.6 }}>VELOCIDADE</span>
           <span style={{ fontSize: 32, fontWeight: 'bold' }}>
-            {data.speed} km/h
+            {data.speed.toFixed(2)} km/h
           </span>
         </div>
 
